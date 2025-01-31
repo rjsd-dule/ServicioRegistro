@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YQ+K2j9X5Vlmmka3z/l7khAbbv2HLMcKg3g3Xn/xuzpSkgKUOxzgOEO7rS8micpgdZa8y1e/z6bfFbCh843Icg==",
+  "dgSpecHash": "Ge42wdr2GEnmaBhUuqKz8oQt5uYo/2vbYeACR+t/x9f+7qnHkJosqAWsoertwyrvQqt4QBc1rKCRzcZ8TxxTSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj",
+  "projectFilePath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rumijsd\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Rumijsd\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

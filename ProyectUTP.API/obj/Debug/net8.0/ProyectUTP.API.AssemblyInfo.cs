@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("610f98cb-c059-4d4c-b93a-18e3daa6f155")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectUTP.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b682d6246d6c5c62d4345ed9591c7c3fb25fc464")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectUTP.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectUTP.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

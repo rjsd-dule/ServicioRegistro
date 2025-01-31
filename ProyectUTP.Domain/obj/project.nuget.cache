@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eb18ZxgPHRqCYYdtPHW16gBE7+dR0lamSO8V4BV/vxPL/HIadiwp5CAnxOAACSWI4S6t0nr3JKNtzRyLkEd7dw==",
+  "dgSpecHash": "so0CSpKrA60L4VjWj4qRbgKwn0CtfDGVBzXj09xKaKwwN3tV6rl67biMgvGwyd3Z2xR/vS/H2sxohW6MMUuD4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rumijsd\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Rumijsd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.11\\microsoft.aspnetcore.cryptography.internal.7.0.11.nupkg.sha512",

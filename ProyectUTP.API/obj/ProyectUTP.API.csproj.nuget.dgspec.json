@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.API\\ProyectUTP.API.csproj": {}
+    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\ProyectUTP.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.API\\ProyectUTP.API.csproj": {
+    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\ProyectUTP.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.API\\ProyectUTP.API.csproj",
+        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\ProyectUTP.API.csproj",
         "projectName": "ProyectUTP.API",
-        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.API\\ProyectUTP.API.csproj",
+        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\ProyectUTP.API.csproj",
         "packagesPath": "C:\\Users\\Rumijsd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.API\\obj\\",
+        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,11 +34,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj": {
-                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj"
+              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj": {
+                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj"
               },
-              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj"
+              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj"
               }
             }
           }
@@ -69,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -102,14 +106,14 @@
         }
       }
     },
-    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj": {
+    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj",
         "projectName": "ProyectUTP.Application",
-        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj",
+        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj",
         "packagesPath": "C:\\Users\\Rumijsd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\obj\\",
+        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -132,8 +136,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj"
+              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj": {
+                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj"
               }
             }
           }
@@ -202,14 +206,14 @@
         }
       }
     },
-    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj": {
+    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj",
         "projectName": "ProyectUTP.Domain",
-        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj",
+        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj",
         "packagesPath": "C:\\Users\\Rumijsd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -280,14 +284,14 @@
         }
       }
     },
-    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj": {
+    "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj",
         "projectName": "ProyectUTP.Infrastructure",
-        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Rumijsd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -310,11 +314,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj": {
-                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj"
+              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj": {
+                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\ProyectUTP.Application.csproj"
               },
-              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ProyectUTP\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj"
+              "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj": {
+                "projectPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Domain\\ProyectUTP.Domain.csproj"
               }
             }
           }
