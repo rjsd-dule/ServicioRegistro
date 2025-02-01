@@ -25,4 +25,5 @@ RUN dotnet publish "./ProyectUTP.API.csproj" -c $BUILD_CONFIGURATION -o /app/pub
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV ASPNETCORE_URLS=http://+:5000;https://+:5001
 ENTRYPOINT ["dotnet", "ProyectUTP.API.dll"]
