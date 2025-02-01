@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectUTP.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9275ebbc8a6b1477aa49e241bdcaca8b921cf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f59a8dccbb218a4a06577bd1122e8fc787ae5ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectUTP.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectUTP.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

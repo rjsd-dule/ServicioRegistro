@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectUTP.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ed8c1b6b80b68e6fd9e47d5312c4fa0712e8c8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f59a8dccbb218a4a06577bd1122e8fc787ae5ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectUTP.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectUTP.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
