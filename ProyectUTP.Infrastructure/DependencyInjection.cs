@@ -24,7 +24,7 @@ namespace ProyectUTP.Infrastructure
             services.AddSingleton(sp => sp.GetRequiredService<IOptions<JwtSettings>>().Value);
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql(configuration.GetConnectionString("ConnectionString"),
+                options.UseNpgsql(configuration.GetConnectionString("ConnectionStringServer"),
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
            services.AddTransient<ITipoCultivo, EServiceTipoCultivo>();
