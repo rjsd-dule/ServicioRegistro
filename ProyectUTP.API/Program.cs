@@ -14,18 +14,10 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    );
-});
-
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    );
+    options.AddPolicy("CorsPolicy", policy =>
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader());
 });
 
 builder.WebHost.ConfigureKestrel(options =>

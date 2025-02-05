@@ -14,7 +14,9 @@ namespace ProyectUTP.Domain.Identity.Entities
         public string? TipoDeSuelo { get; set; }
         public string? PHRecomendado { get; set; }
         public int? StatusId { get; set; }
+        public int? Ubicacionid { get; set; }
 
         public Status Status { get; set; }
+        public Ubicacion Ubicacion { get; set; }
     }
 }

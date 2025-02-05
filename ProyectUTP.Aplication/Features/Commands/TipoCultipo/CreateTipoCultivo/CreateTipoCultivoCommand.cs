@@ -12,6 +12,7 @@ namespace ProyectUTP.Application.Features.Commands.TipoCultipo.CreateTipoCultivo
         public DateTime? FechaSiembra { get; set; }
         public DateTime? FechaCosecha { get; set; }
         public string? TipoDeSuelo { get; set; }
+        public int? Ubicacionid { get; set; }
         public string? PHRecomendado { get; set; }
         public string CreadoPor { get; set; }
     }

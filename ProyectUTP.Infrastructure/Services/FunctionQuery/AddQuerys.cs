@@ -26,6 +26,7 @@ namespace ProyectUTP.Infrastructure.Services.FunctionQuery
                 FechaCosecha=command.FechaCosecha,
                 TipoDeSuelo=command.TipoDeSuelo,
                 PHRecomendado=command.PHRecomendado,
+                Ubicacionid=command.Ubicacionid,
                 StatusId=1,
                 FechaCreacion =DateTime.UtcNow
             };
