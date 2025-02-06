@@ -49,15 +49,15 @@ namespace ProyectUTP.Infrastructure.Migrations
                     b.Property<int?>("StatusId")
                         .HasColumnType("integer");
 
+                    b.Property<int?>("TipoCultivoId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("TokenValue")
                         .HasColumnType("text");
 
-                    b.Property<int?>("UbicacionId")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("UbicacionId");
+                    b.HasIndex("TipoCultivoId");
 
                     b.ToTable("MuestraToke", "Soil");
                 });
@@ -94,63 +94,63 @@ namespace ProyectUTP.Infrastructure.Migrations
                         {
                             Id = 1,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2665),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9746),
                             Name = "Activo"
                         },
                         new
                         {
                             Id = 2,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2671),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9752),
                             Name = "Inactivo"
                         },
                         new
                         {
                             Id = 3,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2673),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9753),
                             Name = "En Proceso de analisis"
                         },
                         new
                         {
                             Id = 4,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2674),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9754),
                             Name = "Aceptado"
                         },
                         new
                         {
                             Id = 5,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2675),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9756),
                             Name = "Rechazado"
                         },
                         new
                         {
                             Id = 6,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2677),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9757),
                             Name = "Revisado"
                         },
                         new
                         {
                             Id = 7,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2679),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9758),
                             Name = "En revisión"
                         },
                         new
                         {
                             Id = 8,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2680),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9759),
                             Name = "Analisis Finalizado"
                         },
                         new
                         {
                             Id = 9,
                             CreadoPor = "Sistema",
-                            FechaCreacion = new DateTime(2025, 2, 5, 3, 59, 17, 492, DateTimeKind.Utc).AddTicks(2681),
+                            FechaCreacion = new DateTime(2025, 2, 6, 6, 25, 40, 219, DateTimeKind.Utc).AddTicks(9760),
                             Name = "Suspendido"
                         });
                 });
@@ -270,11 +270,11 @@ namespace ProyectUTP.Infrastructure.Migrations
 
             modelBuilder.Entity("ProyectUTP.Domain.Identity.Entities.MuestraToke", b =>
                 {
-                    b.HasOne("ProyectUTP.Domain.Identity.Entities.Ubicacion", "Ubicacion")
+                    b.HasOne("ProyectUTP.Domain.Identity.Entities.Ubicacion", "TipoCultivo")
                         .WithMany()
-                        .HasForeignKey("UbicacionId");
+                        .HasForeignKey("TipoCultivoId");
 
-                    b.Navigation("Ubicacion");
+                    b.Navigation("TipoCultivo");
                 });
 
             modelBuilder.Entity("ProyectUTP.Domain.Identity.Entities.TipoCultivo", b =>

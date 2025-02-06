@@ -70,13 +70,13 @@ namespace ProyectUTP.Infrastructure.Services.FunctionQuery
 
         public async Task<List<GetTokenResult>> GetTokenAsync(int? Id)
         {
-            var query = from u in _dbContext.Ubicacion
-                        join t in _dbContext.MuestraToke on u.Id equals t.UbicacionId
-                        where Id == 0 || t.UbicacionId == Id
+            var query = from u in _dbContext.TipoCultivo
+                        join t in _dbContext.MuestraToke on u.Id equals t.TipoCultivoId
+                        where Id == 0 || t.TipoCultivoId == Id
                         select new GetTokenResult
                         {
                             TokenId=t.Id,
-                            NombreUbicacion = u.NombreUbicacion,
+                            NombreCultivo = u.NombreCultivo,
                             TokenValue=t.TokenValue,
                             Expira = t.ExpiresAt,
                         };

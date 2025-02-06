@@ -48,12 +48,12 @@ namespace ProyectUTP.Infrastructure.Services.FunctionQuery
             };
         }
 
-        public MuestraToke addUbicacionToken(string Token,string CreadoPor,int addUbicacionId, DateTime Expirees)
+        public MuestraToke addUbicacionToken(string Token,string CreadoPor,int TipoCultivoId, DateTime Expirees)
         {
             return new MuestraToke
             {
                 TokenValue= Token,
-                UbicacionId= addUbicacionId,
+                TipoCultivoId = TipoCultivoId,
                 CreadoPor = CreadoPor,
                 StatusId=1,
                 ExpiresAt= Expirees,
