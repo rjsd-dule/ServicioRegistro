@@ -2,6 +2,7 @@
 {
     public class GetUbicacionResult
     {
+        public int UserId { get; set; }
         public string NombreUbicacion { get; set; }
         public string Direccion { get; set; }
         public string EstadoProvincia { get; set; }

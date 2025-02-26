@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA74568C-94FA-42B7-9CAB-E2CD1A8642D5}|ProyectUTP.API\\ProyectUTP.API.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA74568C-94FA-42B7-9CAB-E2CD1A8642D5}|ProyectUTP.API\\ProyectUTP.API.csproj|solutionrelative:proyectutp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1751F15C-A799-4090-AE89-129555D06220}|ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.infrastructure\\services\\functionquery\\getquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1751F15C-A799-4090-AE89-129555D06220}|ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj|solutionrelative:proyectutp.infrastructure\\services\\functionquery\\getquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9FE974-A48D-4935-9340-20E48CD29CDC}|ProyectUTP.Aplication\\ProyectUTP.Application.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.aplication\\features\\queries\\ubicacion\\getubicacionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9FE974-A48D-4935-9340-20E48CD29CDC}|ProyectUTP.Aplication\\ProyectUTP.Application.csproj|solutionrelative:proyectutp.aplication\\features\\queries\\ubicacion\\getubicacionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1751F15C-A799-4090-AE89-129555D06220}|ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.infrastructure\\services\\eserviceubicacion\\eserviceubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1751F15C-A799-4090-AE89-129555D06220}|ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj|solutionrelative:proyectutp.infrastructure\\services\\eserviceubicacion\\eserviceubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA74568C-94FA-42B7-9CAB-E2CD1A8642D5}|ProyectUTP.API\\ProyectUTP.API.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{AA74568C-94FA-42B7-9CAB-E2CD1A8642D5}|ProyectUTP.API\\ProyectUTP.API.csproj|solutionrelative:proyectutp.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA74568C-94FA-42B7-9CAB-E2CD1A8642D5}|ProyectUTP.API\\ProyectUTP.API.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA74568C-94FA-42B7-9CAB-E2CD1A8642D5}|ProyectUTP.API\\ProyectUTP.API.csproj|solutionrelative:proyectutp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA74568C-94FA-42B7-9CAB-E2CD1A8642D5}|ProyectUTP.API\\ProyectUTP.API.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F9FE974-A48D-4935-9340-20E48CD29CDC}|ProyectUTP.Aplication\\ProyectUTP.Application.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.aplication\\models\\identity\\allresponsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F9FE974-A48D-4935-9340-20E48CD29CDC}|ProyectUTP.Aplication\\ProyectUTP.Application.csproj|solutionrelative:proyectutp.aplication\\models\\identity\\allresponsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1751F15C-A799-4090-AE89-129555D06220}|ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj|c:\\users\\rumijsd\\desktop\\proyectutp\\servicioregistro\\proyectutp.infrastructure\\services\\functionquery\\getquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1751F15C-A799-4090-AE89-129555D06220}|ProyectUTP.Infrastructure\\ProyectUTP.Infrastructure.csproj|solutionrelative:proyectutp.infrastructure\\services\\functionquery\\getquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +54,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Program.cs",
               "RelativeDocumentMoniker": "ProyectUTP.API\\Program.cs",
               "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Program.cs",
               "RelativeToolTip": "ProyectUTP.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T04:16:15.568Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetUbicacionResult.cs",
+              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\Features\\Queries\\Ubicacion\\GetUbicacionResult.cs",
+              "RelativeDocumentMoniker": "ProyectUTP.Aplication\\Features\\Queries\\Ubicacion\\GetUbicacionResult.cs",
+              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\Features\\Queries\\Ubicacion\\GetUbicacionResult.cs",
+              "RelativeToolTip": "ProyectUTP.Aplication\\Features\\Queries\\Ubicacion\\GetUbicacionResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T22:32:54.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EserviceUbicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\Services\\EserviceUbicacion\\EserviceUbicacion.cs",
+              "RelativeDocumentMoniker": "ProyectUTP.Infrastructure\\Services\\EserviceUbicacion\\EserviceUbicacion.cs",
+              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\Services\\EserviceUbicacion\\EserviceUbicacion.cs",
+              "RelativeToolTip": "ProyectUTP.Infrastructure\\Services\\EserviceUbicacion\\EserviceUbicacion.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAQwGUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T22:23:04.064Z",
               "EditorCaption": ""
             },
             {
@@ -84,44 +117,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ProyectUTP.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ProyectUTP.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-07T14:54:43.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Dockerfile",
               "RelativeDocumentMoniker": "ProyectUTP.API\\Dockerfile",
               "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Dockerfile",
               "RelativeToolTip": "ProyectUTP.API\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-07T14:48:16.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TipoCultivoController.cs",
-              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
-              "RelativeDocumentMoniker": "ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
-              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
-              "RelativeToolTip": "ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAIwCMAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T21:51:17.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GetTipoCultivoQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\Features\\Queries\\GetTipoCultivo\\GetTipoCultivoQuery.cs",
               "RelativeDocumentMoniker": "ProyectUTP.Aplication\\Features\\Queries\\GetTipoCultivo\\GetTipoCultivoQuery.cs",
@@ -133,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GetTipoCultivoHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\Features\\Queries\\GetTipoCultivo\\GetTipoCultivoHandler.cs",
               "RelativeDocumentMoniker": "ProyectUTP.Aplication\\Features\\Queries\\GetTipoCultivo\\GetTipoCultivoHandler.cs",
@@ -145,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AllResponseMessage.cs",
               "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Aplication\\Models\\Identity\\AllResponseMessage.cs",
               "RelativeDocumentMoniker": "ProyectUTP.Aplication\\Models\\Identity\\AllResponseMessage.cs",
@@ -157,7 +166,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "GetQuerys.cs",
+              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
+              "RelativeDocumentMoniker": "ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
+              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
+              "RelativeToolTip": "ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwD4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:35:37.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoCultivoController.cs",
+              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
+              "RelativeDocumentMoniker": "ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
+              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
+              "RelativeToolTip": "ProyectUTP.API\\Controllers\\TipoCultivoController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwCMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:51:17.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProyectUTP.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProyectUTP.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-07T14:54:43.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EServiceTipoCultivo.cs",
               "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\Services\\EServiceTipoCultivo\\EServiceTipoCultivo.cs",
               "RelativeDocumentMoniker": "ProyectUTP.Infrastructure\\Services\\EServiceTipoCultivo\\EServiceTipoCultivo.cs",
@@ -166,18 +212,6 @@
               "ViewState": "AQIAAEsAAAAAAAAAAADgv1cAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T21:35:43.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetQuerys.cs",
-              "DocumentMoniker": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
-              "RelativeDocumentMoniker": "ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
-              "ToolTip": "C:\\Users\\Rumijsd\\Desktop\\ProyectUtp\\ServicioRegistro\\ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
-              "RelativeToolTip": "ProyectUTP.Infrastructure\\Services\\FunctionQuery\\GetQuerys.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBsAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T19:35:37.816Z"
             }
           ]
         }
