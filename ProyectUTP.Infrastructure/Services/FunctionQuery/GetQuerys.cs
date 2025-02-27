@@ -54,7 +54,7 @@ namespace ProyectUTP.Infrastructure.Services.FunctionQuery
                         where Id == 0 || u.Id == Id
                         select new GetUbicacionResult
                         {
-                            UserId=u.Id,
+                            UbicacionId = u.Id,
                             NombreUbicacion = u.NombreUbicacion,
                             Direccion = u.Direccion,
                             EstadoProvincia = u.EstadoProvincia,
