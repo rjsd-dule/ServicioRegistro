@@ -6,6 +6,7 @@ using ProyectUTP.Application.Features.Commands.TipoCultipo.CreateTipoCultivo;
 using ProyectUTP.Application.Features.Commands.TipoCultipo.DeleteTipoCultivo;
 using ProyectUTP.Application.Features.Commands.TipoCultipo.UpdateTipoCultivo;
 using ProyectUTP.Application.Features.Queries.GetTipoCultivo;
+using ProyectUTP.Domain.Identity.Entities;
 using ProyectUTP.Infrastructure.Services.FunctionQuery;
 
 namespace ProyectUTP.Infrastructure.Services.EServiceTipoCultivo
@@ -48,41 +49,65 @@ namespace ProyectUTP.Infrastructure.Services.EServiceTipoCultivo
 
         public async Task<DeleteTipoCultivoResult> DeleteCultivoAsync(DeleteTipoCultivoCommand command)
         {
+            using var transaction = await _dbContext.Database.BeginTransactionAsync();
             try
             {
-                var getDataDelete = await _dbContext.TipoCultivo.FirstOrDefaultAsync(t => t.Id == command.TipoCultipoId /*&& t.StatusId == 1*/);
+                var getDataDelete = await _dbContext.TipoCultivo
+                    .FirstOrDefaultAsync(t => t.Id == command.TipoCultivoId);
 
-                if (getDataDelete != null)
+                if (getDataDelete == null)
                 {
-                    _dbContext.TipoCultivo.Remove(getDataDelete);
-                    await _dbContext.SaveChangesAsync();
+                    _logger.LogWarning("No se encontró el registro con Id {Id} para eliminar.", command.TipoCultivoId);
+                    return new DeleteTipoCultivoResult
+                    {
+                        IsError = false,
+                        StatusCode = 404,
+                        Message = "Sin registro"
+                    };
+                }
+                var isTipoCultivoInUse = await _dbContext.MuestraToke
+                    .AnyAsync(t => t.TipoCultivoId == command.TipoCultivoId);
+                /*var isTipoCultivoInUse = await _dbContext.SueloMediciones
+                    .AnyAsync(t => t.TipoCultivoId == command.TipoCultivoId);*/
 
-                    _logger.LogInformation("Registro con Id {Id} eliminado exitosamente.", command.TipoCultipoId);
-
+                if (isTipoCultivoInUse)
+                {
+                    _logger.LogInformation("No se puede eliminar el registro con Id {Id} ya que está en uso.", command.TipoCultivoId);
                     return new DeleteTipoCultivoResult
                     {
                         IsError = false,
                         StatusCode = 200,
-                        Message = "Registro eliminado"
+                        Message = $"No se puede eliminar el registro con Id {command.TipoCultivoId} ya que está en uso."
                     };
                 }
 
-                _logger.LogWarning("No se encontró el registro con Id {Id} para eliminar.", command.TipoCultipoId);
+                _dbContext.TipoCultivo.Remove(getDataDelete);
+                await _dbContext.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                _logger.LogInformation("Registro con Id {Id} eliminado exitosamente.", command.TipoCultivoId);
 
                 return new DeleteTipoCultivoResult
                 {
                     IsError = false,
-                    StatusCode = 404,
-                    Message = "Sin registro"
+                    StatusCode = 200,
+                    Message = "Registro eliminado"
                 };
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al eliminar el TipoCultivo con Id {Id}", command.TipoCultipoId);
+                await transaction.RollbackAsync();
+                _logger.LogError(ex, "Error al eliminar el TipoCultivo con Id {Id}", command.TipoCultivoId);
 
-                return _Response.ServerError<DeleteTipoCultivoResult>("Error interno del servidor. Por favor, intente nuevamente más tarde.");
+                return new DeleteTipoCultivoResult
+                {
+                    IsError = true,
+                    StatusCode = 500,
+                    Message = "Error interno del servidor. Por favor, intente nuevamente más tarde."
+                };
             }
         }
+
 
 
         public async Task<AllResponseMessage<GetTipoCultivoResult>> GetCultivoAsync(GetTipoCultivoQuery query)

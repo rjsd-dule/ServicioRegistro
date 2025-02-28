@@ -21,7 +21,7 @@ namespace ProyectUTP.Infrastructure
             /*builder.Ignore<AspNetUserRoles>();
             builder.Ignore<Status>();*/
         }
-
+        public DbSet<SueloMedicion> SueloMediciones { get; set; }
         public DbSet<MuestraToke> MuestraToke { get; set; }
         public DbSet<Ubicacion> Ubicacion { get; set; }
         public DbSet<TipoCultivo> TipoCultivo { get; set;}

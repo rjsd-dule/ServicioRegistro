@@ -59,8 +59,26 @@ namespace ProyectUTP.Infrastructure.Services.EserviceUbicacion
         {
             try
             {
-                var getDataDelete = await _dbContext.Ubicacion.FirstOrDefaultAsync(u => u.Id == command.UbicacionId);
 
+                var isUsedInTipoCultivo = await (from u in _dbContext.Ubicacion
+                                                 join tc in _dbContext.TipoCultivo on u.Id equals tc.Ubicacionid
+                                                 where u.Id == command.UbicacionId
+                                                 select u.Id).AnyAsync();
+
+
+                if (isUsedInTipoCultivo)
+                {
+                    _logger.LogWarning("No se puede eliminar el registro con Id {Id} porque está en uso en TipoCultivo.", command.UbicacionId);
+
+                    return new DeleteUbicacionResult
+                    {
+                        IsError = true,
+                        StatusCode = 409,
+                        Message = "No se puede eliminar porque está en uso"
+                    };
+                }
+
+                var getDataDelete = await _dbContext.Ubicacion.FirstOrDefaultAsync(u => u.Id == command.UbicacionId);
                 if (getDataDelete != null)
                 {
                     _dbContext.Ubicacion.Remove(getDataDelete);
@@ -92,6 +110,7 @@ namespace ProyectUTP.Infrastructure.Services.EserviceUbicacion
                 return _Response.ServerError<DeleteUbicacionResult>("Error interno del servidor. Por favor, intente nuevamente más tarde.");
             }
         }
+
 
         public async Task<AllResponseMessage<GetUbicacionResult>> GetUbicacionAsync(GetUbicacionQuery query)
         {

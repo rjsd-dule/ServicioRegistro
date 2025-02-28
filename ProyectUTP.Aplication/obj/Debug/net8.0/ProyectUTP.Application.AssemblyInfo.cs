@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectUTP.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81f7ffa758f1cfc82300f62c80434c6fd0a0eb4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d1ccb83e1b492356ead72a706172ea6e11225c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectUTP.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectUTP.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
