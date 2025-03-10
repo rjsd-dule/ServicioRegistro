@@ -71,9 +71,9 @@ namespace ProyectUTP.Infrastructure.Services.FunctionQuery
 
         public async Task<List<GetTokenResult>> GetTokenAsync(int? Id)
         {
-            var query = from u in _dbContext.TipoCultivo
+            var query_enabled = from u in _dbContext.TipoCultivo
                         join t in _dbContext.MuestraToke on u.Id equals t.TipoCultivoId
-                        where Id == 0 || t.TipoCultivoId == Id
+                        where Id == 0 || u.Ubicacionid == Id
                         select new GetTokenResult
                         {
                             TokenId=t.Id,
@@ -81,6 +81,15 @@ namespace ProyectUTP.Infrastructure.Services.FunctionQuery
                             TokenValue=t.TokenValue,
                             Expira = t.ExpiresAt,
                         };
+            var query = from m in _dbContext.MuestraToke
+                          join u in _dbContext.Ubicacion on m.UbicacionId equals u.Id
+                          where Id == 0 || u.Id == Id
+                          select new GetTokenResult {
+                              TokenId = m.Id,
+                              NombreCultivo = u.Descripcion,
+                              TokenValue = m.TokenValue,
+                              Expira = m.ExpiresAt,
+                          };
             var request = await query.ToListAsync();
             return request;
         }

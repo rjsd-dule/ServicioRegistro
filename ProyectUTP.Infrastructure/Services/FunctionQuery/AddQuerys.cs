@@ -47,13 +47,14 @@ namespace ProyectUTP.Infrastructure.Services.FunctionQuery
                 FechaCreacion = DateTime.UtcNow
             };
         }
-
+        /*TipoCultivoId = Ubicacion*/
         public MuestraToke addUbicacionToken(string Token,string CreadoPor,int TipoCultivoId, DateTime Expirees)
         {
             return new MuestraToke
             {
                 TokenValue= Token,
                 TipoCultivoId = TipoCultivoId,
+                UbicacionId= TipoCultivoId,
                 CreadoPor = CreadoPor,
                 StatusId=1,
                 ExpiresAt= Expirees,

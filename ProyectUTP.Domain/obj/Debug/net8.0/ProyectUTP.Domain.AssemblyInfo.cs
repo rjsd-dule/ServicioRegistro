@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectUTP.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d1ccb83e1b492356ead72a706172ea6e11225c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca41919ce9e22c4d6b288a91bd1ab4d8820f7267")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectUTP.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectUTP.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
